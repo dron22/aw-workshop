@@ -2,6 +2,7 @@
 name: Daily Digest
 emoji: 📋
 description: Every weekday morning, post an issue summarizing all open issues and PRs, grouped by label.
+engine: codex
 
 # Trigger - fuzzy schedule; compiler adds workflow_dispatch automatically for manual runs
 on:
