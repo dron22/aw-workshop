@@ -69,7 +69,7 @@ Create exactly one issue via the `create-issue` safe output:
   1. Start with one paragraph summarizing the overall state of the repo — roughly how many issues vs. PRs are open, whether anything looks stale or urgent, and general momentum.
   2. Group every issue and PR by label, using each label name as a `### <label>` heading. Items with no labels go under `### Untriaged`. An item with multiple labels appears once under each of its labels.
   3. Within a section, list issues and PRs together, newest first, one line each:
-     `- [#<number>] <title> — @<author>, open <daysOpen> day(s)`, linking `#<number>` to `<url>`.
+     `- Issue [#<number>] <title> — @<author>, open <daysOpen> day(s)`, linking `#<number>` to `<url>`.
 
 If both `issues.json` and `prs.json` are empty, call `noop` explaining the repo has no open issues or PRs instead of creating an empty digest.
 
